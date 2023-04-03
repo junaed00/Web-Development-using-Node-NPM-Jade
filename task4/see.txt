@@ -1,0 +1,22 @@
+add_pro
+
+
+layput e jinis likhe:
+body
+    block content//for output
+    br
+    hr
+    footer
+        p cp
+
+
+index.pug e:
+extends layout
+
+block content
+    h1 #{tit}
+
+
+    notes:
+    render korte hobe take j kina extend kortese onno take
+    
