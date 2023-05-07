@@ -9,5 +9,5 @@ app.use(allRoutes);
 app.use(express.static(path.join(__dirname, "public")));
 
 app.listen(3000, () => {
-  console.log("started express server at post 4000");
+  console.log("started express server at post 3000");
 });

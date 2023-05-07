@@ -1,0 +1,14 @@
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    background-color: rgb(9, 131, 91);
+    padding: 15px;
+    border-radius: 4px;
+    color: white;
+    font-size: 3rem;
+}

@@ -4,6 +4,7 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="stylesheets/style.css")
         title Form fillup
     body 
         form(action="/display-form-details",method="POST")
@@ -16,4 +17,6 @@ html(lang="en")
             div
                 label(for="user-pass") Please Enter A Password 
                 input(type="password",id="user-pass",name="userPassword")
-            button Click to submit
+            
+            div
+                button Click to submit
