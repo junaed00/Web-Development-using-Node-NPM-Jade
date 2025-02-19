@@ -3,17 +3,16 @@
   font-family: "Roboto", sans-serif;
 }
 header h1 {
-  background-color: aquamarine;
+  background-color: rgb(41, 113, 195);
   padding: 10px;
   border-radius: 5px;
 }
 .container {
-  border: 12px solid rgb(109, 234, 109);
+  border: 12px solid rgb(17, 9, 113);
   border-radius: 5px;
   padding: 10px;
 }
 footer p {
   padding: 10px;
-
-  background-color: rgb(214, 184, 147);
+  background-color: rgb(109, 169, 114);
 }

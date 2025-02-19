@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const router = express.Router();
 router.get('/',(req,res)=>{
-  res.send("This is the welcome home pages")
+  res.send("Hey, Welcome to the homepage!")
 })
 router.get("/about", (req, res) => {
   const p = path.join(__dirname, "..", "views", "about.html");

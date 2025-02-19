@@ -9,14 +9,11 @@ html(lang="en")
     body 
         form(action="/display-form-details",method="POST")
             div
-                label(for="user-name") Please Enter Name 
+                label(for="user-name") Enter your Name 
                 input(type="text",id="user-name",name="userName") 
             div
-                label(for="user-age") Please Enter Your Age 
-                input(type="number",id="user-age",name="userAge") 
-            div
-                label(for="user-pass") Please Enter A Password 
+                label(for="user-pass") Enter a password 
                 input(type="password",id="user-pass",name="userPassword")
             
             div
-                button Click to submit
+                button Submit
